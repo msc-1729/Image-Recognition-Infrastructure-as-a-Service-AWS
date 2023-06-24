@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Face recognition results</title>
+</head>
+<body>
+<table border="1" style="width:300px">
+    <tr>
+        <th>File Name</th>
+        <th>Recognition result</th>
+    </tr>
+    <tr th:each="key : ${recognitionResult.keySet()}">
+        <td
+            th:text="${key}">File Name
+        </td>
+        <td
+            th:text="${recognitionResult.get(key)}">Recognition result
+        </td>
+    </tr>
+</table>
+</body>
+</html>
