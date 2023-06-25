@@ -1,4 +1,4 @@
-<h2 align = "center"> AWS Image Recognition as a Service </h2>
+<h2 align = "center"> AWS Image Recognition - Infrastructure as a Service </h2>
 
 ## Introduction
 The aim of the project is to develop a cloud web application that provides Image Recognition as a Service to users by using the AWS cloud resources to perform deep learning on images provided by the users. The deep learning model is provided in an AWS image (ID: ami-07303b67, Name: imageRecognition, Region: us-west-1a). This application invokes this model to perform image recognition on the images that were provided as input through the user interface. The application has the capacity to handle multiple requests concurrently. It will automatically scale out when the request demand increases, and automatically scale in when the demand drops.
